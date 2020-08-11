@@ -36,7 +36,7 @@ public class DriverClass {
 		driver.get("https://s1.demo.opensourcecms.com/wordpress/wp-login.php");
 		driver.manage().window().maximize();
 		
-		
+		// this is new commit from mayur
 		LoginTestCase.doLogin();
 		InPageMethod.doLogin3();
 		LogOutTestCase.doLogin1();
